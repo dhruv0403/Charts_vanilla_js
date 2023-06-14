@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>CHARTS</h1>
+    <div class="graph-container">
+        <h2>Bar graph</h2>
+        <div class="bar-container">
+            <div class="bar" style="height: 50%;">
+                <div class="value">50</div>
+            </div>
+            <div class="bar" style="height: 75%;">
+                <div class="value">75</div>
+            </div>
+            <div class="bar" style="height: 30%;">
+                <div class="value">30</div>
+            </div>
+            <div class="bar" style="height: 90%;">
+                <div class="value">90</div>
+            </div>
+            <div class="bar" style="height: 80%;">
+                <div class="value">80</div>
+            </div>
+            <div class="bar" style="height: 65%;">
+                <div class="value">65</div>
+            </div>
+        </div>
+    </div>
+    <div class="chart-container">
+        <h2>Area graph</h2>
+        
+        <canvas id="chart"></canvas>
+    </div>
+    
+    <div class="pie-chart-container">
+        <h2>Pie Chart</h2>
+        <canvas id="polar-area-chart"></canvas>
+    </div>
+
+    <div class="pie-chart-container">
+        <h2>Polar Chart</h2>
+
+        <canvas id="pie-chart"></canvas>
+    </div>
+    <div class="pie-chart-container" style="border: 1px solid black;">
+        <h2>Line Chart</h2>
+
+        <canvas id="line-chart"></canvas>
+    </div>
+    <div class="pie-chart-container" style="border: 1px solid black;">
+        <h2>Scatter Chart</h2>
+
+        <canvas id="scatter-chart" width="400" height="400"></canvas>
+    </div>
+    <div class="pie-chart-container" style="border: 1px solid black;">
+        <h2>Radar Chart</h2>
+
+        <canvas id="radar-chart" width="400" height="400"></canvas>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
